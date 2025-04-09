@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,56 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# 📚 Laravel Library Management System
+
+## 🚀 Project Overview
+This is a **mini library management system** built with **Laravel**. It allows users to:
+- 📖 **Add, edit, and delete books**
+- 🔍 **Search books** by title, author, or ISBN
+- 🔄 **Check-in and check-out books**
+
+## 🛠️ Installation & Setup
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/YOUR_USERNAME/library-management.git
+cd library-management
+```
+
+### **2️⃣ Install Dependencies**
+```sh
+composer install
+npm install
+```
+
+### **3️⃣ Configure Environment**
+```sh
+cp .env.example .env
+php artisan key:generate
+```
+- Edit `.env` and update your **database credentials**
+
+### **4️⃣ Setup Database**
+```sh
+php artisan migrate --seed
+```
+- This will create database tables and insert sample data.
+
+### **5️⃣ Start the Development Server**
+```sh
+php artisan serve
+```
+- Open **http://127.0.0.1:8000** in your browser.
+
+## 🔥 Additional Commands
+- **Clear Cache (if needed)**
+  ```sh
+  php artisan cache:clear
+  php artisan config:clear
+  php artisan route:clear
+  php artisan view:clear
+  ```
+
+## 🤝 Contribution
+Feel free to fork and contribute! 😊
+>>>>>>> 9f2c497227a3e6908bb0eef2c9f9c8e8dbea2fa1
