@@ -42,6 +42,7 @@
                     </td>
                     <td class="d-flex justify-content-center">
                         <!-- Edit Button -->
+
                         <a href="/books/{{ $book->id }}/edit" class="btn btn-warning btn-sm me-1">✏️ Edit</a>
 
                         <!-- Delete Form -->
